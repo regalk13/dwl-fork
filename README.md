@@ -1,5 +1,7 @@
 # dwl - dwm for Wayland
 
+> Temporal self made fork of v0.7 from codeberg https://codeberg.org/dwl/dwl/src/tag/v0.7
+
 Join us on our IRC channel: [#dwl on Libera Chat]  
 Or on our [Discord server].
 
