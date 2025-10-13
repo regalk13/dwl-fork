@@ -12,13 +12,13 @@ static const int topbar                    = 1; /* 0 means bottom bar */
 static const char *fonts[]                 = {"monospace:size=10"};
 static const float rootcolor[]             = COLOR(0x000000ff);
 /* This conforms to the xdg-protocol. Set the alpha to zero to restore the old behavior */
-static const float fullscreen_bg[]         = {0.1f, 0.1f, 0.1f, 1.0f}; /* You can also use glsl colors */
+static const float fullscreen_bg[]         = COLOR(0xb16286ff); /* You can also use glsl colors */
 static int enableautoswallow = 1;
 static float swallowborder = 1.0f;
 static uint32_t colors[][3]                = {
 	/*               fg          bg          border    */
-	[SchemeNorm] = { 0xbbbbbbff, 0x222222ff, 0x444444ff },
-	[SchemeSel]  = { 0xeeeeeeff, 0x005577ff, 0x005577ff },
+	[SchemeNorm] = { 0xebdbb2ff, 0x181716ff, 0x282828ff },
+	[SchemeSel]  = { 0xfbf1c7ff, 0x3c3836ff, 0x3c3836ff },
 	[SchemeUrg]  = { 0,          0,          0x770000ff },
 };
 
